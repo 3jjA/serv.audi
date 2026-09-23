@@ -1,0 +1,374 @@
+<serviceList>
+      <service serviceId="esim_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/esim/v1/</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="news_v3" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/news/v3/</url>
+        <serviceStatus status="Enabled">
+          </serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>activated</state>
+          <activation>20260831000000Z</activation>
+          <expires>20280831000000Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="poi_v2" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/poi/v2/?key=$(key)&amp;lan=$(lan)&amp;lat=$(lat)&amp;lon=$(lon)&amp;num=$(num)&amp;index=$(index)&amp;radius=$(radius)&amp;session=$(session)&amp;hu_region=$(huregion)&amp;implicitLocation=$(implicitLocation)</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="dataplan_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/dataplan/v1/</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="traffic-online_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/traffic-online/v1/$(country)/$(dest_country)?source=$(source)</url>
+        <serviceStatus status="Enabled">
+          </serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>activated</state>
+          <activation>20260831000000Z</activation>
+          <expires>20280831000000Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="satellitemaps_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/satellitemaps/v1/</url>
+        <serviceStatus status="Enabled">
+          </serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>activated</state>
+          <activation>20260831000000Z</activation>
+          <expires>20280831000000Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="streetview_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/streetview/v1/</url>
+        <serviceStatus status="Enabled">
+          </serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>activated</state>
+          <activation>20260831000000Z</activation>
+          <expires>20280831000000Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="users_v3" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/users/v3/device_registered</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="sport_v2" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/sport/v2/?lan=$(lan)</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="otacupromotion_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/ota/v1/service.php</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="parkinfo_v3" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/parkinfo/v3/</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="fpi_v3" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/fpi/v3/</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="dictation_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/dictation/v1/?type=$(type)&amp;userID=$(userID)&amp;audioFormat=$(audioFormat)&amp;rate=$(rate)&amp;lan=$(lan)&amp;grammar=$(grammar)</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="weather_v3" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/weather/v3/</url>
+        <serviceStatus status="Enabled">
+          </serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>activated</state>
+          <activation>20260831000000Z</activation>
+          <expires>20280831000000Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="otacunav_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/otacunav/v1/service.php</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="otacusession_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/remoteupdate/v1/SecurityContexts</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="vehicles_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbbEssential" blocksDisabling="true">
+        <url>https://mbbservices.audi-connect.de/mbb/vehicles/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="personalpoi_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/personalpoi/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="zieleinspeisung_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/destinationfeedservice/v1/?dataElementType=$(dataElementType)&amp;maxNr=$(maxNr)</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="services_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbbEssential" blocksDisabling="true">
+        <url>https://mbbservices.audi-connect.de/mbb/services/v1/$(checksum)</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="mbboauth_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbbEssential" blocksDisabling="true">
+        <url>https://mbbservices.audi-connect.de/mbbcoauth/t1/oauth2/v1/$(resource)?brand=Audi&amp;homeRegion=ICTO-10487</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="jobs_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="true">
+        <url>https://mbbservices.audi-connect.de/mbb/jobs/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="lsd_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbbEssential" blocksDisabling="true">
+        <url>https://mbbservices.audi-connect.de/mbb/lsd/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="otacuppoi_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/otacuppoi/v1/service.php</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="hotspotwlan_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/hotspotwlan/v1/</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>pseudonymousGps</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="gracenote_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="external" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/gracenote/v1//gracenote/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>2</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="kundenupdate_v1" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/kundenupdate/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="updatetruststore" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/certificatedownload/v1/</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>personalUser</privacyGroup>
+        </privacyGroups>
+      </service>
+      <service serviceId="applist_v3" licenseRequired="false" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/applist/v3/?lan=$(lan)</url>
+        <serviceStatus status="Enabled" />
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+      </service>
+      <service serviceId="poivoice_v1" licenseRequired="true" termsAndConditionsRequired="false" primaryUserRequired="false" serviceType="mbb" blocksDisabling="false">
+        <url>https://mbbservices.audi-connect.de/mbb/poivoice/v1/?key=$(key)&amp;speechType=$(speechType)&amp;speechEncoding=$(speechEncoding)&amp;speechBitrate=$(speechBitrate)&amp;lan=$(lan)&amp;lat=$(lat)&amp;lon=$(lon)&amp;num=$(num)&amp;index=$(index)&amp;radius=$(radius)&amp;hu_region=$(huregion)&amp;implicitLocation=$(implicitLocation)&amp;session=$(session)</url>
+        <serviceStatus status="Disabled">
+          <reason>noActiveLicense</reason></serviceStatus>
+        <license>
+          <id>0</id>
+          <ltype>regular</ltype>
+          <state>expired</state>
+          <activation>201907231317Z</activation>
+          <expires>202107231317Z</expires>
+          <warn>false</warn>
+        </license>
+        <dirt>
+          <APN>1</APN>
+        </dirt>
+        <privacyGroups>
+          <privacyGroup>pseudonymousGps</privacyGroup>
+        </privacyGroups>
+      </service>
+    </serviceList>
